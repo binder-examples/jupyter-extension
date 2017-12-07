@@ -1,4 +1,4 @@
-# Jupyter Extensions with Binder
+# Enabling Jupyter Extensions with post-build commands
 
 [![Binder](https://beta.mybinder.org/badge.svg)](https://beta.mybinder.org/v2/gh/binder-examples/jupyter-extension/master?filepath=index.ipynb)
 
