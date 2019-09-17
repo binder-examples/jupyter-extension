@@ -21,11 +21,3 @@ The postBuild file defines commands (one per line) to be run with bash.
 In this case, we use it to install a Jupyter Lab extension
 (by calling jupyter labextension) which allows ipywidgets
 to be displayed within notebooks.
-
-## postBuild
-Drop support for python-markdown which does not work with jupyterlab (at least as of 0.35.4)
-
-[Match jupyterlab-manager version to jupyterlab 0.35.4](https://github.com/jupyter-widgets/ipywidgets/tree/master/packages/jupyterlab-manager#version-compatibility)
-```bash
-jupyter labextension install @jupyter-widgets/jupyterlab-manager@0.38
-```
