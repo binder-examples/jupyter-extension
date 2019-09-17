@@ -2,7 +2,7 @@
 
 [![Binder](https://beta.mybinder.org/badge.svg)](https://beta.mybinder.org/v2/gh/binder-examples/jupyter-extension/master?filepath=index.ipynb) jupyter notebook
 
-[![Binder](https://beta.mybinder.org/badge.svg)](https://beta.mybinder.org/v2/gh/binder-examples/jupyter-extension/master?urlpath=lab) jupyterlab
+[![Binder](https://beta.mybinder.org/badge.svg)](https://beta.mybinder.org/v2/gh/binder-examples/jupyter-extension/master?urlpath=lab) jupyter lab
 
 
 This example demonstrates how to enable Jupyter extensions with Binder. We'll
@@ -17,11 +17,12 @@ Ipywidgets lets you create interactive widgets in your notebook.
 Installation is fairly straightforward. You install the python package,
 then enable the extension.
 
+JupyterLab requires installing a jupyter labextension.
+
 ## postBuild
-Because `mybinder` currently is using last beta release (0.35.4) of jupyterlab:
+Drop support for python-markdown which does not work with jupyterlab (at least as of 0.35.4)
+
+[Match jupyterlab-manager version to jupyterlab 0.35.4](https://github.com/jupyter-widgets/ipywidgets/tree/master/packages/jupyterlab-manager#version-compatibility)
 ```bash
 jupyter labextension install @jupyter-widgets/jupyterlab-manager@0.38
 ```
-Expect to be able to drop the version once `mybinder` moves to jupyterlab 1.1 or higher.
-See [here](https://github.com/jupyter-widgets/ipywidgets/tree/master/packages/jupyterlab-manager#version-compatibility)
-for version matching.
