@@ -1,8 +1,8 @@
 # Enabling Jupyter Extensions with post-build commands
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://beta.mybinder.org/v2/gh/binder-examples/jupyter-extension/master?filepath=index.ipynb) (Jupyter Notebook)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://beta.mybinder.org/v2/gh/binder-examples/jupyter-extension/HEAD?urlpath=/tree/index.ipynb) (Jupyter Notebook)
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://beta.mybinder.org/v2/gh/binder-examples/jupyter-extension/master?urlpath=lab) (Jupyter Lab)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://beta.mybinder.org/v2/gh/binder-examples/jupyter-extension/HEAD?urlpath=lab/tree/index.ipynb) (Jupyter Lab)
 
 
 This example demonstrates how to enable Jupyter extensions with Binder.We currently only cover one example
